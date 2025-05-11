@@ -57,6 +57,7 @@ header {
   position: sticky;
   left: 0;
   top: 0;
+  z-index: 999;
 }
 
 .personel_info {
@@ -65,7 +66,10 @@ header {
   justify-content: space-between;
   padding: 10px 20px;
 }
-
+.social_media ul {
+    display: flex;
+    gap: 8px;
+}
 .phone_number_area {
   display: flex;
   align-items: center;

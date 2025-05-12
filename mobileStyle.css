@@ -1,0 +1,44 @@
+
+
+@media (max-width:850px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 8px;
+
+    }
+
+}
+@media (max-width:1400px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+}
+
+/*
+responsive Desing (mobile device)
+*/
+
+@media (max-width: 350px) {
+  .personel_info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:440px) {
+    footer .footer_container p {
+        font-size: 14px;
+        text-align: center;
+    }
+}

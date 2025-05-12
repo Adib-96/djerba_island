@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Djerbavibes</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobileStyle.css" />
+    <script src="main.js" defer async></script>
   </head>
   <body>
+    <button id="backToTop">
+      <img src="/images/arrow.png" alt="" />
+    </button>
     <header class="personel_info">
       <div class="phone_number_area">
         <img
@@ -15,7 +20,7 @@
           width="30px"
           height="30px"
         />
-        <span>+216 55 533 818</span>
+        <span>+216 56 533 818</span>
       </div>
       <div class="social_media">
         <ul>
@@ -40,7 +45,11 @@
             </a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://wa.me/21656533818"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="images/icons8-whatsapp-50.png"
                 alt="whatsup_logo"
@@ -49,14 +58,28 @@
               />
             </a>
           </li>
+          <li>
+            <a
+              href="mailto:vibesdjerba@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/paper-plane.png"
+                alt="whatsup_logo"
+                width="30px"
+                height="30px"
+                loading="lazy"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     </header>
 
-    <!-- Navbar Section-->
-
     <!-- Hero Section-->
     <section class="hero_section">
+      <!-- Navbar Section-->
       <nav class="nav_bar">
         <div>
           <img
@@ -72,7 +95,6 @@
             <li><a href="#À propos">À propos</a></li>
             <li><a href="#Excursions">Excursions</a></li>
             <li><a href="#Galerie">Galerie </a></li>
-            <li><a href="#Contact ">Contact </a></li>
           </ul>
         </div>
       </nav>
@@ -94,7 +116,7 @@
         <h1 class="font_size_big">
           Découvrez Djerba à travers les yeux d’un passionné local
         </h1>
-        <p class="paragraph_fonts">
+        <p class="paragraph_fonts fix">
           Depuis plusieurs années, nous organisons des excursions authentiques
           et inoubliables à travers
           <span class="bold_word">l'île de Djerba</span> et ses environs. Que ce
@@ -123,74 +145,96 @@
       </div>
       <div class="excursion_container">
         <!--excursion CARD-->
+
         <div class="excursion_card">
           <div class="excursion_image">
-            <img src="/images/ile-aux-flamants-roses-1024x679.jpeg" alt="" />
+            <img src="images/balade_en_mer.jpg" alt="" loading="lazy" />
           </div>
           <div class="excursion_info">
             <h3>Balade en mer</h3>
-            <p class="paragraph_fonts">
+            <p class="paragraph_fonts" id="fixed_box">
               Vivez une journée détente à bord d’un bateau traditionnel. Entre
               baignade, animation, déjeuner et paysages marins à couper le
               souffle, cette balade est idéale pour toute la famille.
             </p>
-            <button>Réserver sur WhatsApp</button>
+            <button id="whats_call">Réserver sur WhatsApp</button>
             <span>
-              <img src="/images/whatsapp.png" alt="whatsup_logo" width="30px" />
+              <img
+                src="/images/whatsapp.png"
+                alt="whatsup_logo"
+                width="30px"
+                loading="lazy"
+              />
             </span>
           </div>
         </div>
+
         <!--excursion CARD-->
         <div class="excursion_card">
           <div class="excursion_image">
-            <img src="/images/pexels-bulat-5809849.jpg" alt="" />
+            <img src="/images/pexels-bulat-5809849.jpg" alt="" loading="lazy" />
           </div>
           <div class="excursion_info">
             <h3>Tour de l’île</h3>
-            <p class="paragraph_fonts">
+            <p class="paragraph_fonts" id="fixed_box">
               Vivez une journée détente à bord d’un bateau traditionnel. Entre
               baignade, animation, déjeuner et paysages marins à couper le
               souffle, cette balade est idéale pour toute la famille.
             </p>
-            <button>Réserver sur WhatsApp</button>
+            <button id="whats_call">Réserver sur WhatsApp</button>
             <span>
-              <img src="/images/whatsapp.png" alt="whatsup_logo" width="30px" />
+              <img
+                src="/images/whatsapp.png"
+                alt="whatsup_logo"
+                width="30px"
+                loading="lazy"
+              />
             </span>
           </div>
         </div>
         <!--excursion CARD-->
         <div class="excursion_card">
           <div class="excursion_image">
-            <img src="/images/pexels-bulat-5809849.jpg" alt="" />
+            <img src="/images/pexels-bulat-5809849.jpg" alt="" loading="lazy" />
           </div>
           <div class="excursion_info">
             <h3>Excursion en Quad</h3>
-            <p class="paragraph_fonts">
+            <p class="paragraph_fonts" id="fixed_box">
               Partez à l’aventure sur les pistes sablonneuses de l’île.
               Sensations fortes garanties, encadrées par un guide local
               expérimenté.
             </p>
-            <button>Réserver sur WhatsApp</button>
+            <button id="whats_call">Réserver sur WhatsApp</button>
             <span>
-              <img src="/images/whatsapp.png" alt="whatsup_logo" width="30px" />
+              <img
+                src="/images/whatsapp.png"
+                alt="whatsup_logo"
+                width="30px"
+                loading="lazy"
+              />
             </span>
           </div>
         </div>
         <!--excursion CARD-->
         <div class="excursion_card">
           <div class="excursion_image">
-            <img src="/images/pexels-jdgromov-4781948.jpg" />
+            <img src="/images/pexels-bulat-5809849.jpg" loading="lazy" />
           </div>
           <div class="excursion_info">
             <h3>Excursion en 4x4 dans le désert</h3>
-            <p class="paragraph_fonts">
+            <p class="paragraph_fonts" id="fixed_box">
               Évadez-vous vers le désert du sud tunisien en 4x4 : dunes dorées,
               oasis cachées et villages troglodytes comme Chenini ou Ksar
               Ghilane. Une vraie aventure saharienne !
             </p>
-            <button>Réserver sur WhatsApp</button>
+            <button id="whats_call">Réserver sur WhatsApp</button>
             <span>
-              <img src="/images/whatsapp.png" alt="whatsup_logo" width="30px" />
+              <img
+                src="/images/whatsapp.png"
+                alt="whatsup_logo"
+                width="30px"
+                loading="lazy"
+              />
             </span>
           </div>
         </div>
@@ -206,19 +250,97 @@
         </h2>
       </div>
 
-      <div class="grid_gallery">
-        <div class="row top">
-          <img src="images/balade_en_mer.jpg" alt="Photo 1" />
-          <img src="images/item_1.jpg" alt="Photo 2" />
-        </div>
-        <div class="row middle">
-          <img src="images/item_1.jpg" alt="Photo 3" />
-        </div>
-        <div class="row bottom">
-          <img src="images/item_1.jpg" alt="Photo 4" />
-          <img src="images/item_1.jpg" alt="Photo 5" />
-        </div>
+      <div class="gallery">
+        <img src="images/balade_en_mer.jpg" alt="Photo 1" loading="lazy" />
+        <img src="images/djerba_la_douce.jpg" alt="Photo 1" loading="lazy" />
+        <img src="images/musee_gelalla.jpg" alt="Photo 1" loading="lazy" />
+
+        <img src="images/item_2.jpg" alt="Photo 2" loading="lazy" />
+        <img src="images/item_3.jpg" alt="Photo 3" loading="lazy" />
+        <img src="images/ryadh.jpg" alt="Photo 3" loading="lazy" />
+
+        <img src="images/item_4.jpg" alt="Photo 4" loading="lazy" />
+        <img
+          src="images/pexels-bulat-5809849.jpg"
+          alt="Photo 5"
+          loading="lazy"
+        />
+        <img
+          src="images/pexels-jdgromov-4781948.jpg"
+          alt="Photo 5"
+          loading="lazy"
+        />
       </div>
     </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer_container">
+        <div>
+          <img src="/images/png/logo-color.png" alt="logo" class="logo" />
+        </div>
+        <p>
+          Entre sable doré, mer turquoise et sourires sincères, chaque excursion
+          avec nous est une histoire à vivre, un souvenir à emporter.
+        </p>
+      </div>
+      <div class="social_media">
+        <ul>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                src="images/icons8-facebook-logo-50.png"
+                alt="facebook_logo"
+                width="30px"
+                height="30px"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                src="images/icons8-instagram-logo-30.png"
+                alt="instagram_logo"
+                width="30px"
+                height="30px"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/21656533818"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/icons8-whatsapp-50.png"
+                alt="whatsup_logo"
+                width="30px"
+                height="30px"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:vibesdjerba@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/paper-plane.png"
+                alt="whatsup_logo"
+                width="30px"
+                height="30px"
+                loading="lazy"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <p class="copyrights">
+      &copy; 2025 Djerba Vibes. Tous droits réservés. | Made with ❤️ in
+      Djerba
+    </p>
   </body>
 </html>

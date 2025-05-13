@@ -82,13 +82,13 @@ responsive Desing (mobile device)
 
 @media (max-width:670px) {
     .font_size_big {
-        font-size: 1.5rem;
+        font-size: 3em;
     }
 }
 
 @media (max-width:500px) {
     .font_size_big {
-        font-size: 1.2rem;
+        font-size: 2.5em;
     }
     .font_size_medium {
         font-size: 1rem;
@@ -132,7 +132,7 @@ responsive Desing (mobile device)
         width: 90%;
     }
     .excursion_card p {
-        font-size: 14px;
+        font-size: 1em;
     }
     footer {padding: 2px;}
     .footer_container p {

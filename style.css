@@ -28,8 +28,9 @@ body {
 }
 
 .font_size_big {
-  font-size: 2rem;
+  font-size: 3.5em;
   font-weight: 600;
+  text-align: center;
 }
 .font_size_medium {
   font-size: 1.2rem;
@@ -164,7 +165,7 @@ a::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3em;
+  gap: 4em;
   padding-top: 50px;
 }
 
@@ -217,7 +218,6 @@ section.excursion_section h1 {
   margin: 40px auto;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
   align-items: center;
@@ -225,8 +225,8 @@ section.excursion_section h1 {
 
 .excursion_card {
   overflow: hidden;
-  width: 40%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin: 10px;

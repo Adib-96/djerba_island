@@ -45,6 +45,7 @@ body {
   color: rgba(0, 0, 0, 0.712);
   text-align: left;
   line-height: 1.5;
+  text-align: start;
 }
 
 .bold_word {
@@ -87,14 +88,15 @@ div.hamburger {
 /* Add this to your CSS file or inside a <style> tag */
 .phone_menu {
   position: absolute;
-  top: 55px; /* Adjust based on where you want it */
-  right: 10px;
-  background-color: #ffffff;
+  top: 75px; /* Adjust based on where you want it */
+  right: -36px;
+  background-color: #ffffff3a;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  width: 300px;
 }
 
 .phone_menu ul {
@@ -213,7 +215,7 @@ a::after {
   justify-content: center;
   align-items: center;
   gap: 4em;
-  padding-top: 50px;
+  padding-top: 140px;
 }
 
 .hero_section div.description button {
@@ -235,7 +237,6 @@ about_section
 */
 .about_section {
   margin: 20px auto;
-  padding: 20px 60px;
 }
 
 section.about_section h1 {
@@ -245,7 +246,6 @@ section.about_section h1 {
 
 section.about_section p {
   padding: 10px;
-  text-align: justify;
 }
 
 /*

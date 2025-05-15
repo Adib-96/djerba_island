@@ -2,6 +2,9 @@ const btn = document.getElementById("backToTop");
 const whats_call = document.querySelectorAll("#whats_call");
 const menuList = document.getElementById("menu_list");
 const hamburger = document.querySelector('.hamburger');
+const voir_excursion = document.querySelector('.voir_excursion');
+console.log(voir_excursion);
+
 let clicked = false; // Use `let`, not `const`
 
 // Show/hide back to top button
@@ -52,5 +55,19 @@ menuList.addEventListener("click", (e) => {
     containerList.innerHTML = list;
     containerList.style.position = "absolute";
     hamburger.appendChild(containerList);
+  }
+});
+
+voir_excursion.addEventListener('click',() => {
+    document.getElementById('Excursions').scrollIntoView({behavior:"smooth"})
+})
+
+document.addEventListener("click", (e) => {
+  const menu = document.querySelector(".phone_menu");
+
+  // If menu is open, and the click is outside the hamburger and menu
+  if (menu && !hamburger.contains(e.target) && !menu.contains(e.target)) {
+    menu.remove();
+    clicked = false;
   }
 });

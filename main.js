@@ -3,7 +3,6 @@ const whats_call = document.querySelectorAll("#whats_call");
 const menuList = document.getElementById("menu_list");
 const hamburger = document.querySelector('.hamburger');
 const voir_excursion = document.querySelector('.voir_excursion');
-console.log(voir_excursion);
 
 let clicked = false; // Use `let`, not `const`
 

@@ -90,7 +90,7 @@ div.hamburger {
   position: absolute;
   top: 75px; /* Adjust based on where you want it */
   right: -36px;
-  background-color: #ffffff3a;
+  background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 10px 20px;
@@ -125,7 +125,7 @@ div.hamburger {
 navbar section
 */
 header {
-  background-color: #e9f1e2e1;
+  background-color: #e9f1e23a;
   position: sticky;
   left: 0;
   top: 0;
@@ -214,8 +214,8 @@ a::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4em;
-  padding-top: 140px;
+  gap: 2.3em;
+  padding: 20px;
 }
 
 .hero_section div.description button {
